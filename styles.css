@@ -1,0 +1,70 @@
+/* CSS file placeholder. */
+@font-face {
+    font-family: 'helveticaneuemedium';
+    src: url('fonts/font-webfont.woff2') format('woff2'),
+         url('fonts/tont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+  margin:0px;
+ background:#eeeeee;
+ font-family: 'helveticaneuemedium', sans-serif;
+}
+.name{
+  color:#464646;
+  font-size:75px;
+  margin-top:75px;
+  margin-left:100px;
+}
+.rline{
+  background:#FF5722;
+  height:2px;
+  width:400px;
+  margin-left:100px;
+}
+.profession{
+  color:#464646;
+  font-size:28px;
+margin-top:15px;
+  margin-left:100px;
+}
+.rline1{
+  background:#FF5722;
+  height:2px;
+  width:300px;
+  margin-left:100px;
+}
+.work{
+  color:#464646;
+  font-size:50px;
+margin-top:100px;
+  margin-left:100px;
+}
+.button {
+    background:transparent;
+    border: none;
+    color: #464646;
+font-family: 'helveticaneuemedium', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+margin-top:10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+
+.button2:hover {
+border-bottom:2px inset #ff5722;
+    }
+    .btcont{
+
+      width:100px;
+      margin-top:15px;
+      margin-left:100px;
+    }
